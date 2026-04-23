@@ -135,13 +135,13 @@ Der Markt für AI Governance und Compliance ist **attraktiv und wachsend**, aber
 
 ## Quellen
 
-- Virtue Market Research: Global AI Compliance Monitoring Market (2025)
-- Future Market Insights: Enterprise AI Governance and Compliance Market
-- Gartner: Market Guide for AI Governance Platforms (Nov 2025)
-- Gartner Press Release: Global AI Regulations Fuel Billion-Dollar Market (Feb 2026)
-- Menlo Ventures: 2025 The State of Generative AI in the Enterprise
-- Deloitte: State of AI in the Enterprise 2026
-- Larridin Blog: State of Enterprise AI in 2025
+- [Virtue Market Research: Global AI Compliance Monitoring Market](https://virtuemarketresearch.com/report/global-ai-compliance-monitoring-market)
+- [Future Market Insights: Enterprise AI Governance and Compliance Market](https://www.futuremarketinsights.com/reports/enterprise-ai-governance-and-compliance-market)
+- [Gartner: Market Guide for AI Governance Platforms](https://www.gartner.com/en/documents/7145930)
+- [Gartner Press Release: Global AI Regulations Fuel Billion-Dollar Market](https://www.gartner.com/en/newsroom/press-releases/2026-02-17-gartner-global-ai-regulations-fuel-billion-dollar-market-for-ai-governance-platforms)
+- [Menlo Ventures: 2025 The State of Generative AI in the Enterprise](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/)
+- [Deloitte: State of AI in the Enterprise 2026](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)
+- [Larridin Blog: State of Enterprise AI in 2025](https://larridin.com/blog/state-of-enterprise-ai-in-2025)
 
 ---
 

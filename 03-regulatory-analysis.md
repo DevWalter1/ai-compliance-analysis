@@ -213,13 +213,13 @@ Der **EU AI Act ist der Game-Changer** für den AI Governance Markt. Unternehmen
 
 ## Quellen
 
-- EU AI Act (Verordnung (EU) 2024/1689)
-- artificialintelligenceact.eu — High-Level Summary
-- Legal Nodes: EU AI Act 2026 Updates
-- Kennedys Law: EU AI Act Implementation Timeline
-- Greenberg Traurig: Key Compliance Considerations
-- Stack Cybersecurity: EU AI Act Compliance Guide for US Businesses
-- Aqua Cloud: EU AI Act Compliance 2026
+- [EU AI Act (Verordnung (EU) 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)
+- [artificialintelligenceact.eu — High-Level Summary](https://artificialintelligenceact.eu/high-level-summary/)
+- [Legal Nodes: EU AI Act 2026 Updates](https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks)
+- [Kennedys Law: EU AI Act Implementation Timeline](https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/)
+- [Greenberg Traurig: Key Compliance Considerations](https://www.gtlaw.com/en/insights/2025/7/eu-ai-act-key-compliance-considerations-ahead-of-august-2025)
+- [Stack Cybersecurity: EU AI Act Compliance Guide for US Businesses](https://stackcyber.com/posts/ai-eu-act)
+- [Aqua Cloud: EU AI Act Compliance 2026](https://aqua-cloud.io/eu-ai-act-compliance/)
 
 ---
 

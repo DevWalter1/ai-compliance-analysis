@@ -62,12 +62,15 @@ Eine zentrale Plattform, auf der Unternehmen alle ihre AI-Tools verbinden könne
 
 ## Quellen
 
-- Gartner Market Guide for AI Governance Platforms (Nov 2025)
-- Future Market Insights: Enterprise AI Governance Market
-- Menlo Ventures: State of Generative AI in the Enterprise (2025)
-- EU AI Act Dokumentation (artificialintelligenceact.eu)
-- Deloitte State of AI in the Enterprise (2026)
-- Verschiedene Hersteller-Websites und Vergleichsstudien
+- [Gartner Market Guide for AI Governance Platforms (Nov 2025)](https://www.gartner.com/en/documents/7145930)
+- [Future Market Insights: Enterprise AI Governance Market](https://www.futuremarketinsights.com/reports/enterprise-ai-governance-and-compliance-market)
+- [Menlo Ventures: State of Generative AI in the Enterprise (2025)](https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/)
+- [EU AI Act Dokumentation](https://artificialintelligenceact.eu/)
+- [Deloitte State of AI in the Enterprise (2026)](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)
+- [Credo AI](https://www.credo.ai)
+- [ModelOp](https://www.modelop.com)
+- [Fiddler AI](https://www.fiddler.ai)
+- [Arize AI](https://www.arize.com)
 
 ---
 

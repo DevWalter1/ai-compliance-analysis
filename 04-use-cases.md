@@ -277,9 +277,9 @@ Die AI Compliance Plattform adressiert ein **fundamentales Problem** moderner Un
 | Quelle | Befund |
 |--------|--------|
 | Menlo Ventures | 40% der AI-App-Ausgaben sind Shadow AI |
-| Gartner | 60% der Compliance-Offiziere investieren in AI RegTech |
-| Deloitte | 42% der C-Suite sagen AI Adoption "tearing their company apart" |
-| Cyberhaven | Enterprise AI Adoption Report zeigt massive Shadow AI Risiken |
+| [Gartner](https://www.gartner.com/en) | 60% der Compliance-Offiziere investieren in AI RegTech |
+| [Deloitte](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html) | 42% der C-Suite sagen AI Adoption "tearing their company apart" |
+| [Cyberhaven](https://www.cyberhaven.com/resources/report/2025-ai-adoption-risk-report) | Enterprise AI Adoption Report zeigt massive Shadow AI Risiken |
 
 ### Kundeninterviews (empfohlen)
 

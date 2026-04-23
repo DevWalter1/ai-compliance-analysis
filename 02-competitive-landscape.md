@@ -248,12 +248,18 @@ Der Wettbewerb ist **intensiv, aber nicht übermächtig**. Die meisten Lösungen
 
 ## Quellen
 
-- Gartner Reviews: AI Governance Platforms
-- Peerspot: Model Monitoring Category (Juli 2025)
-- CB Insights: Fiddler Alternatives
-- Hersteller-Websites (credo.ai, modelop.com, fiddler.ai, arize.com)
-- Medium: ML Model Monitoring Tools Comparison
-- TrueFoundry: Best AI Observability Platforms for LLMs (2026)
+- [Gartner Reviews: AI Governance Platforms](https://www.gartner.com/reviews/market/ai-governance-platforms)
+- [Peerspot: Model Monitoring Category](https://www.peerspot.com/categories/model-monitoring)
+- [CB Insights: Fiddler Alternatives](https://www.cbinsights.com/company/fiddler-labs/alternatives-competitors)
+- [Credo AI](https://www.credo.ai)
+- [ModelOp](https://www.modelop.com)
+- [Fiddler AI](https://www.fiddler.ai)
+- [Arize AI](https://www.arize.com)
+- [Holistic AI](https://www.holisticai.com)
+- [WhyLabs](https://whylabs.ai)
+- [Arthur AI](https://www.arthur.ai)
+- [Medium: ML Model Monitoring Tools Comparison](https://medium.com/@tanish.kandivlikar1412/comprehensive-comparison-of-ml-model-monitoring-tools-evidently-ai-alibi-detect-nannyml-a016d7dd8219)
+- [TrueFoundry: Best AI Observability Platforms for LLMs](https://www.truefoundry.com/blog/best-ai-observability-platforms-for-llms-in-2026)
 
 ---
 
