@@ -32,6 +32,7 @@ Eine zentrale Plattform, auf der Unternehmen alle ihre AI-Tools verbinden könne
 | `04-use-cases.md` | Zielkunden, Use Cases, Pain Points |
 | `05-critical-assessment.md` | Stärken, Schwächen, Risiken |
 | `06-recommendations.md` | Strategische Empfehlungen |
+| `07-product-vision.md` | **Korrigierte Produktvision** (Process Intelligence) |
 | `executive-summary.pptx` | Pitch-Deck mit Key Findings |
 
 ---
@@ -53,10 +54,11 @@ Eine zentrale Plattform, auf der Unternehmen alle ihre AI-Tools verbinden könne
 - Strafen bis zu €35M oder 7% Umsatz
 - Hoher Bedarf an Compliance-Lösungen
 
-❓ **Kritische Fragen:**
-- Unterscheidungsmerkmal zu bestehenden Lösungen?
-- Technische Umsetzbarkeit (Echtzeit-Traffic-Analyse)?
-- Go-to-Market-Strategie bei etabliertem Wettbewerb?
+✅ **Korrigierte Vision (siehe `07-product-vision.md`):**
+- Fokus auf **AI Process Intelligence** — nicht Shadow-Überwachung
+- **Process-Aware Tracking**: Wo steckt wie viel AI in Geschäftsprozessen?
+- Shadow AI als optionales Add-on, nicht Hauptprodukt
+- SDK + API Gateway für Integration mit genehmigten Tools
 
 ---
 
