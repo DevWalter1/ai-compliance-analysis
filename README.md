@@ -33,7 +33,6 @@ Eine zentrale Plattform, auf der Unternehmen alle ihre AI-Tools verbinden könne
 | `05-critical-assessment.md` | Stärken, Schwächen, Risiken |
 | `06-recommendations.md` | Strategische Empfehlungen |
 | `07-product-vision.md` | **Korrigierte Produktvision** (Process Intelligence) |
-| `08-business-case-tracking.md` | **Business Value & ROI Tracking** (Erweiterung) |
 | `executive-summary.pptx` | Pitch-Deck mit Key Findings |
 
 ---

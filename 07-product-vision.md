@@ -359,6 +359,22 @@ response = ai.openai.chat.completions.create(
 
 ---
 
+## Erweiterung: Cost Attribution (Nice-to-have)
+
+> **Wichtig:** Reines Cost-Tracking ist kommoditisiert (Entropic, OpenAI, Azure bieten das bereits). Unser Mehrwert ist **Process-Aware Cost Attribution**.
+
+### Was wir zusätzlich bieten
+
+| Anbieter-Dashboard | Unsere Plattform |
+|-------------------|------------------|
+| "API Key 'eng-001': €5.000" | "Kreditvergabe → Dokumentenprüfung: €5.000 (OCR + Fraud Detection)" |
+| "2,3M Tokens" | "2,3M Tokens in HIGH-RISK Prozess ohne Audit-Trail" |
+| Isolierte Sicht | Cross-Tool Aggregation + Process Context + Compliance Status |
+
+**Fazit:** Cost-Tracking ist **kein Hauptverkaufsargument**, sondern ein **zusätzlicher Nutzen** der Process Intelligence.
+
+---
+
 ## Fazit
 
 **Die korrigierte Vision:**
