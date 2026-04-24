@@ -17,30 +17,39 @@ Unternehmen wissen nicht:
 
 ---
 
-## Die Lösung: AI Process Intelligence
+## Die Lösung: AI Process Intelligence mit Distributed Tracing
+
+**Unser Differentiator:** Distributed Tracing für AI — wie Datadog für Microservices, aber für AI-Calls in Geschäftsprozessen.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │              AI PROCESS INTELLIGENCE PLATFORM                    │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│   EINGABE                    VERARBEITUNG              AUSGABE   │
-│                                                                  │
-│  ┌─────────────┐           ┌─────────────┐          ┌─────────┐ │
-│  │ Approved AI │──────────►│  Process    │─────────►│ Unified │ │
-│  │ (API Keys,  │           │  Mapping &  │          │Dashboard│ │
-│  │  SSO, SDK)  │           │  AI % Calc  │          │         │ │
-│  └─────────────┘           └─────────────┘          └────┬────┘ │
-│         ▲                       ▲                        │      │
-│         │                       │                        ▼      │
-│  ┌──────┴──────┐          ┌─────┴──────┐          ┌──────────┐ │
-│  │ Shadow AI   │          │ Business   │          │Compliance│ │
-│  │ (optional,  │          │ Process    │          │  Reports │ │
-│  │  Add-on)    │          │ Context    │          │          │ │
-│  └─────────────┘          └────────────┘          └──────────┘ │
+│  DISTRIBUTED TRACING FOR AI                                     │
+│  ┌─────────────────────────────────────────────────────────────┐│
+│  │  Trace: Kreditvergabe #2026-0042                           ││
+│  │  ├─ [Span 1] OCR (Azure AI)        €0.023, 1.2s           ││
+│  │  ├─ [Span 2] Fraud Detection       €0.008, 0.4s           ││
+│  │  └─ [Span 3] GPT-4 Decision       €0.045, 2.1s ⚠️ Anomalie││
+│  │                                                             ││
+│  │  Total: €0.076 │ Normal: €0.017 │ +340% Abweichung         ││
+│  └─────────────────────────────────────────────────────────────┘│
+│                              │                                   │
+│                              ▼                                   │
+│  ┌─────────────┐    ┌─────────────────┐    ┌─────────────────┐  │
+│  │  Process    │    │   Anomalie      │    │   Compliance    │  │
+│  │  Context    │───►│   Detection     │───►│   & Audit       │  │
+│  │  (Wo?)      │    │   (Normal?)     │    │   ( compliant?) │  │
+│  └─────────────┘    └─────────────────┘    └─────────────────┘  │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+**Was das bedeutet:**
+- Nicht nur "Marketing kostet €12k", sondern "Kredit #42, Schritt 2: €0.076, 340% über Normal"
+- Jeder AI-Call ist ein **Span** in einem **Trace** mit vollständigem Prozess-Kontext
+- Anomalie-Erkennung auf Trace-Ebene (nicht nur global)
 
 ---
 
@@ -333,20 +342,33 @@ response = ai.openai.chat.completions.create(
 
 ---
 
-### Use Case 3: AI Cost Attribution
+### Use Case 3: Trace-Level Anomalie-Erkennung
 
-**Szenario:** Welche Abteilung verursacht welche AI-Kosten?
+**Szenario:** Ein Kreditantrag verbraucht plötzlich 20x mehr Tokens als normal.
 
 **Lösung:**
-- Jeder AI-Call wird einem Prozess/Team zugeordnet
-- "Marketing: $5.200/Monat (Midjourney, GPT-4)"
-- "Engineering: $12.800/Monat (Copilot, interne Modelle)"
+- Trace zeigt: "Kredit #42, Schritt 3: 12.000 Tokens (normal: 800)"
+- Root Cause: Eingabe enthielt 150 Seiten statt 3
+- Anomalie-Alert: "Unüblich große Eingabe → möglicher Fehler oder Fraud"
 
-**Value:** Budget-Transparenz, Optimierung
+**Value:** Früherkennung von Fehlern, Fraud-Detection, Kostenkontrolle
 
 ---
 
-### Use Case 4: AI Dependency Mapping
+### Use Case 4: AI Cost Attribution (Process-Aware)
+
+**Szenario:** Welche Abteilung verursacht welche AI-Kosten — und warum?
+
+**Lösung:**
+- Nicht nur: "Marketing: €12.000/Monat"
+- Sondern: "Newsletter-Generierung: €3.000, 2.500 pro Stück, 15% über Budget"
+- Oder: "Kreditvergabe → Dokumentenprüfung: €0.076 pro Fall"
+
+**Value:** Prozessschritt-genaues Budgeting, Optimierungspotenziale erkennen
+
+---
+
+### Use Case 5: AI Dependency Mapping
 
 **Szenario:** Was passiert, wenn OpenAI ausfällt?
 
@@ -385,9 +407,14 @@ response = ai.openai.chat.completions.create(
 
 **Der Wert:**
 - Unternehmen wissen endlich, **wo und wie viel AI** sie nutzen
+- **Trace-Level Transparenz:** Jeder AI-Call im Prozess-Kontext
+- **Anomalie-Erkennung:** Automatische Alerts bei Abweichungen
 - Compliance ist **nachweisbar**
 - Kunden können **AI-Anteile garantieren**
 - Interne **Kosten und Risiken** sind transparent
+
+**Unser einzigartiger Differentiator:**
+> "Distributed Tracing für AI — wir zeigen nicht nur WAS passiert, sondern WARUM und ob es NORMAL ist."
 
 ---
 
